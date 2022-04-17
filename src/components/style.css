@@ -75,7 +75,14 @@
       left: 280px;
       border: 3px solid black;
       border-radius: 5px;
-      padding: 20px;
+      padding: 17px;
+  }
+
+  .button{
+      border: none;
+      background-color: white;
+      padding: 3%;
+      cursor: pointer;
   }
 
   .logo{
@@ -98,11 +105,12 @@
 
   .recipe1{
       width: 70%;
-      height: 400px;
+      height: 360px;
       border: 2px solid black;
       margin-top: 2%;
       position: relative;
-      left: 200px;
+      left: 240px;
+      margin-bottom: 20px;
   }
 
   .heading1{
@@ -111,3 +119,92 @@
       font-size: 40px;
       font-weight: 600;
   }
+
+  .recipe-image{
+      width: 330px;
+      height: 355px;
+      border-radius: 2px;
+  }
+
+  .details{
+      border: 2px solid black;
+      width: 40%;
+      height: 80px;
+      position: relative;
+      left: 250px;
+      margin-bottom: 8%;
+  }
+
+  .icon1, .icon2, .icon3{
+      width: 40px;
+      height: 40px;
+      margin: 2%;
+  }
+
+  .time-icon{
+      display: inline;
+      margin: 4%;
+  }
+
+  .recipe-number{
+      font-size: 30px;
+      font-family: 'Times New Roman', Times, serif;
+      padding: 20px;
+      line-height: 20px;
+      position: relative;
+      top: -320px;
+  }
+
+  .recipe-name{
+      font-size: 50px;
+      font-family: 'Times New Roman', Times, serif;
+      position: relative;
+      top:-300px;
+      line-height: 20px;
+  }
+
+  .recipe-desc{
+      font-size: 20px;
+      line-height: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      position: relative;
+      top: -270px;
+      left: 380px;
+  }
+
+  .recipe-time,.recipe-calories,.recipe-serve{
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      position: relative;
+      top: -30px;
+  }
+
+  .heading2{
+      font-size: 50px;
+      font-weight: 600;
+      font-family: 'Times New Roman', Times, serif;
+      position: relative;
+      left: 600px;
+  }
+
+  .box{
+
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(350px,5px));
+    grid-gap: 70px;
+    justify-content:space-evenly;
+    position: relative;
+    left: 30px;
+  }
+
+  .spice-img{
+      width: 300px;
+      height: 280px;
+  }
+
+  .spice-name{
+      font-size: 40px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
