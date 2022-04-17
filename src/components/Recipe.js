@@ -18,6 +18,8 @@ const Recipe = (e) => {
                   <span className="recipe-number">{e.id}</span>
                   <span className="recipe-name">{e.name}</span>
                   <div className="recipe-desc">{e.description}</div>
+
+                  <button className="to-recipe">View Recipe</button>
                 </div>
                 
                 <div className="details">

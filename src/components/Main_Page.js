@@ -7,10 +7,12 @@ import snack from '../components/images/nachos.png';
 import sweet from '../components/images/cupcake.png';
 import Recipe from './Recipe';
 import Spices from './Spices';
+import recipes from './Api';
 
 // import { FaSearch } from "react-icons/fa";
 
 const Main_Page = () => {
+
   return (
     <div className='app'>
      <Navbar/>

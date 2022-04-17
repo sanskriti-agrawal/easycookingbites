@@ -189,7 +189,7 @@
 
   .box{
 
-    margin-top: 3%;
+    margin-top: 4%;
     display: grid;
     grid-template-columns: repeat(3, minmax(350px,5px));
     grid-gap: 70px;
@@ -206,5 +206,16 @@
   .spice-name{
       font-size: 40px;
       font-family: 'Times New Roman', Times, serif;
+  }
+
+  .to-recipe{
+      position: relative;
+      top: -180px;
+      left: 380px;
+      font-size: 20px;
+      color: white;
+      background-color: rgba(78, 56, 56, 0.308);
+      cursor: pointer;
+      padding: 10px;
   }
   
