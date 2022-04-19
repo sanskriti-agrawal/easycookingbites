@@ -21,16 +21,13 @@ const Navbar = () => {
           <li>Sign Up</li>
         </ul>
       </div>
-
-      <div>
         <img
           src={image}
           style={{
             width: "100%",
-            height: "500px",
+            height: "510px",
           }}
         />
-      </div>
     </>
   );
 };

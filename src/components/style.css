@@ -166,6 +166,7 @@
   .recipe-desc{
       font-size: 20px;
       line-height: 40px;
+      width: 600px;
       font-family: Arial, Helvetica, sans-serif;
       position: relative;
       top: -270px;
@@ -188,7 +189,6 @@
   }
 
   .box{
-
     margin-top: 4%;
     display: grid;
     grid-template-columns: repeat(3, minmax(350px,5px));
@@ -196,6 +196,7 @@
     justify-content:space-evenly;
     position: relative;
     left: 30px;
+    margin-bottom: 40px;
   }
 
   .spice-img{
@@ -210,7 +211,7 @@
 
   .to-recipe{
       position: relative;
-      top: -180px;
+      top: -230px;
       left: 380px;
       font-size: 20px;
       color: white;
@@ -218,4 +219,135 @@
       cursor: pointer;
       padding: 10px;
   }
+
+  .image{
+      width: 460px;
+      height: 390px;
+      margin-top: 4%;
+      margin-left: 2%;
+  }
+
+  .sub-recipes{
+      height: 80vh;
+      border: 2px solid black;
+      margin: 1%;
+  }
+
+  .name{
+      font-size: 50px;
+      font-weight: 600;
+      font-family: 'Times New Roman', Times, serif;
+      position: relative;
+      left: 100px;
+      top: 30px;
+  }
+
+  .ingre{
+      width: 240px;
+      font-size: 15px;
+      position: relative;    
+      top: -370px;
+      left: 560px;
+      display: block;
+      line-height: 24px;
+      border-right: 1px solid grey;
+  }
+
+  .main-footer{
+      border: 2px solid black;
+      margin: 2%;
+      height: 450px;
+  }
+
+  .f1{
+      border-bottom: 1px solid grey;
+      height: 100px;
+  }
+
+  .footer-image{
+      width: 200px;
+      height: 200px;
+      position: relative;
+      top: -40px;
+  }
+
+  .return{
+      text-decoration: none;
+      color: black;
+      position: relative;
+      top: -121px;
+      left: 990px;
+      padding: 10px;
+      cursor: pointer;
+  }
+
+  .about{
+      padding: 20px;
+      font-size: 20px;
+      line-height: 60px;
+  }
+
+  .f2 p{
+      font-size: 15px;
+      position: relative;
+      top: -50px;
+      left: 120px;
+      padding: 10px;
+      border-left: 1px solid grey;
+      height: 50px;
+  }
+
+  .contact{
+      font-size: 20px;
+      padding: 20px;
+  }
+
+  .f3 a{
+      text-decoration: none;
+      color: black;
+      padding: 20px;
+      font-size: 17px;
+      border-left: 1px solid grey;
+      position: relative;
+      left: 13px;
+      height: 50px;
+  }
   
+  .phone{
+      font-size: 17px;
+      position: relative;
+      left: 600px;
+  }
+
+  .sub{
+      font-size: 20px;
+      padding: 20px;
+      position: relative;
+      top: 80px;
+  }
+
+  .sites{
+      position: relative;
+      top: 30px;
+      left: 123px;
+      border-left: 1px solid grey;
+      height: 60px;
+      padding: 20px;
+      font-size: 30px;
+      cursor: pointer;
+  }
+
+  .f5 p{
+      position: relative;
+      top: 78px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      padding: 10px;
+  }
+
+  .f5 span{
+      color: purple;
+      cursor: pointer;
+  }
