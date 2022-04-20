@@ -1,45 +1,53 @@
 import React from "react";
-import recipes from './Api';
-import timeicon from '../components/images/hourglass.png';
-import serveicon from '../components/images/serving-dish.png';
-import caloriesicon from '../components/images/flame.png';
+import Carousel from "react-bootstrap/Carousel";
 
-const Recipe = (e) => {
+const Recipe = () => {
   return (
-    <>
-      <div className="top-recipes">
-        <span className="heading1">Our Top Recipes..</span>
-        {
-          recipes.map((e)=>{
-            return(
-              <>
-                <div className="recipe1">
-                  <img src={e.img} className="recipe-image"/>
-                  <span className="recipe-number">{e.id}</span>
-                  <span className="recipe-name">{e.name}</span>
-                  <div className="recipe-desc">{e.description}</div>
+    <div className="carousel">
+      <h1 className="heading1">Our Top Recipes</h1>
 
-                  <button className="to-recipe">View Recipe</button>
-                </div>
-                
-                <div className="details">
+      <Carousel fade>
+        <Carousel.Item interval={10}>
+          <img
+            className="c-image"
+            src="assets/dm.jpg"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h3 className="carousel-heading">Dal Makhani</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </Carousel.Caption>
+        </Carousel.Item >
 
-                  <div className="time-icon"><img src={timeicon} className="icon1"></img>
-                  <span className="recipe-time">{e.time}</span></div>
+        <Carousel.Item interval={10}>
+          <img
+            className="c-image"
+            src="assets/alook.jpg"
+            alt="Second slide"
+          />
 
-                  <div className="time-icon"> <img src={caloriesicon} className='icon2'></img>
-                  <span className="recipe-calories">{e.calories}</span></div>
+          <Carousel.Caption>
+            <h3 className="carousel-heading">Aloo Kulche</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
 
-                  <div className="time-icon"> <img src={serveicon} className='icon3'></img>
-                  <span className="recipe-serve">{e.serve}</span></div>
+        <Carousel.Item>
+          <img
+            className="c-image"
+            src="assets/kher.jpg"
+            alt="Third slide"
+          />
 
-                </div>
-              </>
-            )
-          })
-        }
-      </div>
-    </>
+          <Carousel.Caption>
+            <h3 className="carousel-heading">Kher</h3>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+    </div>
   );
 };
 

@@ -76,7 +76,7 @@ const Footer = () => {
         <div className="f5">
           <p>
             Copyright &copy; 2020 All Rights Reserved by
-            <span>Easy Cooking Bites</span>
+            <span> Easy Cooking Bites</span>
           </p>
     
         </div>

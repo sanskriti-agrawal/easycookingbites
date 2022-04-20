@@ -8,8 +8,15 @@ function App(){
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Main_Page/>}/>
+          <Route path='/' element={<Main_Page/>}>
+            {/* <Route path='/all-recipe' element={<Allrecipes/>}></Route>
+            <Route path='/blog' element={<Blog/>}></Route>
+            <Route path='/contact' element={<Contact/>}></Route> */}
+          </Route>
           <Route path='/veg-recipes' element={<Veg_recipes/>}></Route>
+          {/* <Route path='/nonveg-recipes' element={<NonVeg_recipes/>}></Route>
+          <Route path='/snacks-recipes' element={<Snacks_recipes/>}></Route>
+          <Route path='/sweet-recipes' element={<Sweet_recipes/>}></Route> */}
         </Routes>
       </BrowserRouter>
     </>

@@ -10,15 +10,15 @@ const Navbar = () => {
         <img src={logo} className="logo" />
 
         <ul className="link1">
-          <li>Home</li>
-          <li>All recipes</li>
-          <li>Blog</li>
-          <li>Contact Us</li>
+          <a href="/"> <li>Home</li></a>
+          <a href="/all-recipe"><li>All recipes</li></a>
+          <a href="/blog"><li>Blog</li></a>
+         <a href="/contact"> <li>Contact Us</li></a>
         </ul>
 
         <ul className="link2">
-          <li>LogIn</li>
-          <li>Sign Up</li>
+          <a href="/login"><li>LogIn</li></a>
+         <a href="/signup"> <li style={{border:'1px solid black', height:'45px',width:'90px',paddingLeft:'10px'}}>Sign Up</li></a>
         </ul>
       </div>
         <img

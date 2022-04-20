@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './style.css';
 import Navbar from './Navbar';
 import veg from '../components/images/salad.png';
@@ -9,16 +9,24 @@ import Recipe from './Recipe';
 import Spices from './Spices';
 import Footer from './Footer';
 
-// import { FaSearch } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
 
 const Main_Page = () => {
+
+  const [searchInput, setSearchInput] = useState('');
+
+  const searchItems=(searchValue)=>{
+    setSearchInput(searchValue);
+  }
 
   return (
     <div className='app'>
      <Navbar/>
 
       <div className='search'>
-        <input type='text' placeholder='Search Your Recipes' className='search' ></input>
+        <input type='text' placeholder='Search Your Recipes' className='search' onChange={(e) => searchItems(e.target.value)}></input>
+        <div className='serachIcon'><FaSearch/></div>
+        <div className='Data'></div>
       </div>
 
       <div className='select-food'>
@@ -29,6 +37,7 @@ const Main_Page = () => {
       </div>
 
       <Recipe/>
+      
       <Spices/>
       <Footer/>
     </div>
