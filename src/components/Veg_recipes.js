@@ -1,5 +1,5 @@
 import React from "react";
-import { vegrecipes } from "./Api";
+import { veg_Recipes} from "./Api";
 import "./style.css";
 import time from "../components/images/hourglass.png";
 import calories from "../components/images/flame.png";
@@ -9,7 +9,7 @@ const Veg_recipes = () => {
   return (
     <>
       <div className="main-container">
-        {vegrecipes.map((e) => {
+        {veg_Recipes.map((e) => {
           return (
             <>
               <div className="sub-recipes">
