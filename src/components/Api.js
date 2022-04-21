@@ -37,7 +37,7 @@ export const spices = [
   },
 ];
 
-export const veg_Recipes = [
+export const all_recipes = [
   {
     name: "Dal Makhani",
     img: "assets/dm.jpg",
@@ -54,7 +54,7 @@ export const veg_Recipes = [
     time: "1h 20m",
     calories: "415",
     serve: "4",
-    category: "veg",
+    category: 'veg',
   },
 
   {
@@ -72,7 +72,7 @@ export const veg_Recipes = [
     time: "17m",
     calories: "438",
     serve: "2",
-    category: "veg",
+    category: 'veg',
   },
 
   {
@@ -90,7 +90,7 @@ export const veg_Recipes = [
     time: "35m",
     calories: "240",
     serve: "4",
-    category: "veg",
+    category: 'veg',
   },
 
   {
@@ -108,7 +108,7 @@ export const veg_Recipes = [
     time: "40m",
     calories: "413",
     serve: "4",
-    category: "veg",
+    category: 'veg',
   },
 
   {
@@ -127,7 +127,7 @@ export const veg_Recipes = [
     time: "30m",
     calories: "535",
     serve: "4",
-    category: "veg",
+    category: 'veg',
   },
 
   {
@@ -146,7 +146,7 @@ export const veg_Recipes = [
     time: "55m",
     calories: "420",
     serve: "6",
-    category: "veg",
+    category: 'veg',
   },
 
   {
@@ -164,7 +164,7 @@ export const veg_Recipes = [
     time: "45m",
     calories: "367",
     serve: "4",
-    category: "veg",
+    category: 'veg',
   },
 
   {
@@ -183,7 +183,7 @@ export const veg_Recipes = [
     time: "45m",
     calories: "185",
     serve: "10",
-    category: "veg",
+    category: 'veg',
   },
 
   {
@@ -202,7 +202,7 @@ export const veg_Recipes = [
     time: "20m",
     calories: "519",
     serve: "2",
-    category: "veg",
+    category: 'veg',
   },
 
   {
@@ -220,11 +220,9 @@ export const veg_Recipes = [
     time: "50m",
     calories: "550",
     serve: "2",
-    category: "veg",
+    category: 'veg',
   },
-];
 
-export const nonveg_recipe = [
   {
     name: "Butter Chicken",
     img: "assets/bc.jpg",
@@ -243,7 +241,7 @@ export const nonveg_recipe = [
     time: "55m",
     calories: "333",
     serve: "10 serves",
-    category: "nonveg",
+    category: 'nonv',
   },
   {
     name: "Chicken Biryani",
@@ -262,11 +260,11 @@ export const nonveg_recipe = [
     time: "1h",
     calories: "560",
     serve: "5 serves",
-    category: "nonveg",
+    category: 'nonv',
   },
   {
     name: "Chilli Chicken",
-    img: "assets/cc.jpg",
+    img: "assets/chillic.jpg",
     ing1: "500 gm chopped chicken, 1/2 cup corn flour, 1/2 teaspoon garlic paste, 2 tablespoon sliced green chilli, 2 tablespoon vinegar, salt as required",
     ing2: "1 beaten egg, 1/2 teaspoon ginger paste, 2 cup chopped onion, 1 tablespoon soy sauce, 1/2 cup sunflower oil, 1/2 cup sliced capsicum (green pepper)",
     make1:
@@ -282,7 +280,7 @@ export const nonveg_recipe = [
     time: "1h 30m",
     calories: "189",
     serve: "5 serves",
-    category: "nonveg",
+    category: 'nonv',
   },
   {
     name: "Chicken 65",
@@ -301,7 +299,7 @@ export const nonveg_recipe = [
     time: "40m",
     calories: "372",
     serve: "4 serves",
-    category: "nonveg",
+    category: 'nonv',
   },
   {
     name: "Fish Curry",
@@ -320,7 +318,7 @@ export const nonveg_recipe = [
     time: "35m",
     calories: "465",
     serve: "2 serves",
-    category: "nonveg",
+    category: 'nonv',
   },
   {
     name: "Mutton Changezi",
@@ -338,10 +336,9 @@ export const nonveg_recipe = [
     time: "1h",
     calories: "547",
     serve: "5 serves",
-    category: "nonveg",
+    category: 'nonv',
   },
-];
-export const snacks = [
+
   {
     name: "Fish Finger",
     img: "assets/ff.jpg",
@@ -358,7 +355,7 @@ export const snacks = [
     time: "25m",
     calories: "249",
     serve: "4 serves",
-    category: "snacks",
+    category: 'snacks',
   },
   {
     name: "Paneer Tikka",
@@ -376,7 +373,7 @@ export const snacks = [
     time: "55m",
     calories: "276",
     serve: "3 serves",
-    category: "snacks",
+    category: 'snacks',
   },
   {
     name: "Garlic Breads",
@@ -393,7 +390,7 @@ export const snacks = [
     time: "25m",
     calories: "190",
     serve: "10 serves",
-    category: "snacks",
+    category: 'snacks',
   },
   {
     name: "Hara Bhara Kabab",
@@ -409,7 +406,7 @@ export const snacks = [
     time: "35m",
     calories: "141",
     serve: "5 serves",
-    category: "snacks",
+    category: 'snacks',
   },
   {
     name: "Reshmi Tikka",
@@ -427,7 +424,7 @@ export const snacks = [
     time: "2h 20m",
     calories: "529",
     serve: "5 serves",
-    category: "snacks",
+    category: 'snacks',
   },
   {
     name: "Spring Rolls",
@@ -445,7 +442,7 @@ export const snacks = [
     time: "1h 5m",
     calories: "157",
     serve: "6 serves",
-    category: "snacks",
+    category: 'snacks',
   },
   {
     name: "Momos",
@@ -463,7 +460,7 @@ export const snacks = [
     time: "40m",
     calories: "270",
     serve: "4 serves",
-    category: "snacks",
+    category: 'snacks',
   },
   {
     name: "Hariyali Chicken Tikka",
@@ -480,7 +477,7 @@ export const snacks = [
     time: "50m",
     calories: "208",
     serve: "6 serves",
-    category: "snacks",
+    category: 'snacks',
   },
   {
     name: "Spicy Prawns",
@@ -497,11 +494,8 @@ export const snacks = [
     time: "35m",
     calories: "218",
     serve: "2 serves",
-    category: "snacks",
+    category: 'snacks',
   },
-];
-
-export const sweet = [
   {
     name: "Kheer",
     img: "assets/kher.jpg",
@@ -518,7 +512,7 @@ export const sweet = [
     time: "50m",
     calories: "217",
     serve: "10 serves",
-    category: "sweet",
+    category: 'sweet',
   },
   {
     name: "Cupcakes",
@@ -536,7 +530,7 @@ export const sweet = [
     time: "35m",
     calories: "510",
     serve: "10 serves",
-    category: "sweet",
+    category: 'sweet',
   },
   {
     name: "Chocolate Cake",
@@ -553,7 +547,7 @@ export const sweet = [
     time: "1h",
     calories: "550",
     serve: "6 serves",
-    category: "sweet",
+    category: 'sweet',
   },
   {
     name: "Brownies",
@@ -570,7 +564,7 @@ export const sweet = [
     time: "55m",
     calories: "400",
     serve: "4 serves",
-    category: "sweet",
+    category: 'sweet',
   },
   {
     name: "Sooji Halwa",
@@ -587,7 +581,7 @@ export const sweet = [
     time: "30m",
     calories: "766",
     serve: "6 serves",
-    category: "sweet",
+    category: 'sweet',
   },
   {
     name: "Butter Cookies",
@@ -605,6 +599,6 @@ export const sweet = [
     time: "40m",
     calories: "572",
     serve: "6 serves",
-    category: "sweet",
-  },
-];
+    category: 'sweet',
+  }
+]

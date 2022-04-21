@@ -9,14 +9,14 @@ import Recipe from "./Recipe";
 import Spices from "./Spices";
 import Footer from "./Footer";
 import { FaSearch } from "react-icons/fa";
-import { nonveg_recipe, snacks, veg_Recipes } from "./Api";
+import { all_recipes } from "./Api";
 
 const Main_Page = () => {
   const [filteredData, setFilteredData] = useState([]);
 
   const handleFilter = (event) => {
     const searchWord = event.target.value;
-    const newFilter = veg_Recipes.filter((value) => {
+    const newFilter = all_recipes.filter((value) => {
       return value.name.toLowerCase().includes(searchWord.toLowerCase());
     });
 
@@ -63,13 +63,13 @@ const Main_Page = () => {
         </a>
 
         <a href="/nonveg-recipes">
-          <button className="button">
+          <button className="button" >
             <img src={nonveg} className="food-cat" />
           </button>
         </a>
 
         <a href="/snacks-recipes">
-          <button className="button">
+          <button className="button" >
             <img src={snack} className="food-cat" />
           </button>
         </a>

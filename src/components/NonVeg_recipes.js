@@ -1,20 +1,16 @@
 import React from "react";
 import { all_recipes } from "./Api";
-import "./style.css";
-import time from "../components/images/hourglass.png";
-import calories from "../components/images/flame.png";
-import serve from "../components/images/serving-dish.png";
 
-const Veg_recipes = () => {
+const NonVeg_recipes = () => {
   return (
     <>
       <div className="main-container">
         {all_recipes
-          .filter(cat => cat.category.includes('veg'))
+          .filter((cat) => cat.category.includes("nonv"))
           .map((e) => {
             return (
               <>
-                <div className="sub-recipes">
+                <div className="sub-recipes2">
                   <img className="image" src={e.img}></img>
                   <div className="name">{e.name}</div>
 
@@ -39,7 +35,9 @@ const Veg_recipes = () => {
                       <br />
                       <span>{e.make3}</span> <br />
                       <br />
-                      <span>{e.make4}</span>
+                      <span>{e.make4}</span> <br />
+                      <br />
+                      <span>{e.make5}</span>
                     </div>
                   </div>
                 </div>
@@ -51,4 +49,4 @@ const Veg_recipes = () => {
   );
 };
 
-export default Veg_recipes;
+export default NonVeg_recipes;

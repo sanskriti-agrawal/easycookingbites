@@ -2,7 +2,7 @@ import React from 'react';
 import {Route,Routes,BrowserRouter} from 'react-router-dom';
 import Veg_recipes from './components/Veg_recipes';
 import Main_Page from './components/Main_Page';
-import NonVeg_recipes from './NonVeg_recipes';
+import NonVeg_recipes from './components/NonVeg_recipes';
 import Sweet_recipes from './components/Sweet_recipes';
 import Snacks_recipes from './components/Snacks_recipes';
 

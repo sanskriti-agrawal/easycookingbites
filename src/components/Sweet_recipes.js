@@ -1,11 +1,13 @@
 import React from "react";
-import { sweet } from "./Api";
+import { all_recipes} from "./Api";
 
 const Sweet_recipes = () => {
   return (
     <>
       <div className="main-container">
-        {sweet.map((e) => {
+        {all_recipes
+          .filter(cat => cat.category.includes('sweet'))
+          .map((e) => {
           return (
             <>
               <div className="sub-recipes">
