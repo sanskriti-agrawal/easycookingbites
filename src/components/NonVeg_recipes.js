@@ -1,5 +1,8 @@
 import React from "react";
 import { all_recipes } from "./Api";
+import time from "../components/images/hourglass.png";
+import calories from "../components/images/flame.png";
+import serve from "../components/images/serving-dish.png";
 
 const NonVeg_recipes = () => {
   return (
@@ -13,6 +16,12 @@ const NonVeg_recipes = () => {
                 <div className="sub-recipes2">
                   <img className="image" src={e.img}></img>
                   <div className="name">{e.name}</div>
+
+                  <div className="serving">
+                    <img src={time}/><span>{e.time}</span>
+                    <img src={calories}/><span>{e.calories}</span>
+                    <img src={serve}/><span>{e.serve}</span>
+                  </div>
 
                   <div className="comb">
                     <div className="ingre">

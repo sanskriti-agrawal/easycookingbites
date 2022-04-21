@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
+import image from '../components/images/image.jpg';
 import Navbar from "./Navbar";
 import veg from "../components/images/salad.png";
 import nonveg from "../components/images/chicken-leg.png";
@@ -30,7 +31,13 @@ const Main_Page = () => {
   return (
     <div className="app">
       <Navbar />
-
+      <img
+          src={image}
+          style={{
+            width: "100%",
+            height: "510px",
+          }}
+        />
       <div className="search">
         <input
           type="text"
@@ -46,7 +53,7 @@ const Main_Page = () => {
           <div className="dataResult">
             {filteredData.map((value, key) => {
               return (
-                <a className="dataItem" href="/veg-recipes">
+                <a className="dataItem" href="/all-recipe">
                   <p>{value.name} </p>
                 </a>
               );

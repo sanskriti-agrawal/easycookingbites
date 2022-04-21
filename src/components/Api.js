@@ -53,7 +53,7 @@ export const all_recipes = [
       "Then add garam masala and salt as per your taste. Stir well and bring to boil, if you think that the dal is too thick, you can add some water. Then add some fresh cream to this recipe and stir well. This will make your Dal Makhani creamy and delicious. Garnish this recipe with fresh cream and freshly chopped coriander leaves.",
     time: "1h 20m",
     calories: "415",
-    serve: "4",
+    serve: "4 serves",
     category: 'veg',
   },
 
@@ -71,7 +71,7 @@ export const all_recipes = [
     make4: "Cut into quarters and serve warm with ketchup and green chutney.",
     time: "17m",
     calories: "438",
-    serve: "2",
+    serve: "2 serves",
     category: 'veg',
   },
 
@@ -81,15 +81,15 @@ export const all_recipes = [
     ing1: "250 gm button mushroom, 4 onion 1-1/2 teaspoon garlic paste, 1 capsicum (green pepper), 1/2 cup water, 1/2 teaspoon garam masala powder, 1-1/2 tablespoon cilantro, 2 tablespoon refined oil, 1-1/2 tablespoon coriander seeds, 2 clove, 1/2 teaspoon fenugreek seeds mace as required ,1/2 teaspoon turmeric",
     ing2: "2 bay leaf, 1-1/2 teaspoon ginger paste, 4 tomato, 2 green chilli, salt as required, 1-1/2 ginger, 1 teaspoon dried fenugreek leaves, 2 red chilli, 1/2 tablespoon peppercorns, 2 green cardamom, 1 cinnamon, 1 teaspoon cumin seeds",
     make1:
-      "Take a non-stick pan and place it on medium flame. Add whole red chillies, coriander seeds, peppercorns, cloves, green cardamom, fenugreek seeds, cinnamon, mace and cumin seeds to the pan and dry roast them. After this, add these ingredients to a blender jar and grind them to a fine powder. In a separate pan, add oil along with button mushrooms and place it on medium flame. Stir fry the mushrooms for a while.",
+      "Take a non-stick pan and place it on medium flame. Add whole red chillies, coriander seeds, peppercorns, cloves, green cardamom, fenugreek seeds, cinnamon, mace and cumin seeds to the pan and dry roast them. After this, add these ingredients to a blender jar and grind them to a fine powder. In a separate pan, add oil along with button mushrooms and place it on medium flame.",
     make2:
-      "Chop the onions, tomatoes, capsicums, green chillies, ginger and cilantro in a bowl. Now, take a heavy-bottomed kadhai, add oil in it and heat it on medium flame. Add bay leaves along with onions and saute for a while until the onions turn translucent. After this, add ginger and garlic paste and let it cook for 2 to 3 minutes. Add chopped tomatoes, green chillies along with ground masala, turmeric and mix properly. Stir for a while.",
+      "Chop the onions, tomatoes, capsicums, green chillies, ginger and cilantro in a bowl. Now, take a heavy-bottomed kadhai, add oil in it and heat it on medium flame. Add bay leaves along with onions and saute for a while until the onions turn translucent. After this, add ginger and garlic paste and let it cook for 2 to 3 minutes. Add chopped tomatoes, green chillies along with ground masala, turmeric and mix properly.",
     make3:
       "Add chopped capsicum and saute it for 2 minutes. Now, add salt according to your taste followed by garam masala powder. Mix properly and then add water. Let it cook for a while and then add stir-fried mushroom. Cover the kadhai with a lid and let it cook for 5 minutes. ",
     make4: false,
     time: "35m",
     calories: "240",
-    serve: "4",
+    serve: "4 serves",
     category: 'veg',
   },
 
@@ -107,7 +107,7 @@ export const all_recipes = [
     make4: false,
     time: "40m",
     calories: "413",
-    serve: "4",
+    serve: "4 serves",
     category: 'veg',
   },
 
@@ -126,7 +126,7 @@ export const all_recipes = [
       "Add chopped coriander. Off the flame and squeeze lime while serving. Team this spicy pulao with any mild or simple raitha.",
     time: "30m",
     calories: "535",
-    serve: "4",
+    serve: "4 serves",
     category: 'veg',
   },
 
@@ -145,7 +145,7 @@ export const all_recipes = [
       "Once done, add fennel powder followed by soya chaap. Mix well and then add 1 1/2 cups of hot water. Cook for 5 minutes and then add in garam masala. Cook for 2 mins and check if the soya chaap masala is ready. If the curry is thick, add water and cook for a while.",
     time: "55m",
     calories: "420",
-    serve: "6",
+    serve: "6 serves",
     category: 'veg',
   },
 
@@ -163,7 +163,7 @@ export const all_recipes = [
     make4: false,
     time: "45m",
     calories: "367",
-    serve: "4",
+    serve: "4 serves",
     category: 'veg',
   },
 
@@ -182,7 +182,7 @@ export const all_recipes = [
       "Now cut the capsicum from the top and remove all the seeds from inside. Add the stuffing in capsicum properly. Take a deep bottomed pan, keep it on medium flame and heat ghee in it. Once the ghee is hot enough, fry the stuffed capsicum in the ghee",
     time: "45m",
     calories: "185",
-    serve: "10",
+    serve: "10 serves",
     category: 'veg',
   },
 
@@ -201,7 +201,7 @@ export const all_recipes = [
       "Now, heat a pan over medium flame and place the stuffed paratha over it. When you see small rounds rising on the upper side, flip it to the other side. Let that side cook as well and apply refined oil on the upper side. Now, flip it again and apply oil on the upper side. Let the down side become golden-brown in color and flip it again. Cook both the sides well. Once done, take it off the flame and cut into slices ans serve it hot to enjoy!",
     time: "20m",
     calories: "519",
-    serve: "2",
+    serve: "2 serves",
     category: 'veg',
   },
 
@@ -219,7 +219,7 @@ export const all_recipes = [
     make4: false,
     time: "50m",
     calories: "550",
-    serve: "2",
+    serve: "2 serves",
     category: 'veg',
   },
 
@@ -601,4 +601,31 @@ export const all_recipes = [
     serve: "6 serves",
     category: 'sweet',
   }
-]
+];
+
+export const blog=[
+  {
+    id:'1.',
+    name:'Food52',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit nibh ut vehicula vestibulum. Praesent ullamcorper augue in risus sagittis, vestibulum sagittis neque eleifend. Nunc congue tellus odio, non interdum enim commodo vitae. Nulla eu magna nisi.',
+    link:'https://food52.com/'
+  },
+  {
+    id:'2.',
+    name:'Serious Eats',
+    description:'Etiam a eros vestibulum quam congue ultricies. In hac habitasse platea dictumst. Morbi fermentum erat non tellus lacinia, nec dapibus arcu suscipit. Fusce cursus dolor neque. Duis nec ultrices felis, ac pellentesque metus. Phasellus vehicula arcu eget velit aliquet.',
+    link:'https://www.seriouseats.com/'
+  },
+  {
+    id:'3.',
+    name:'A Pinch of Yum',
+    description:'Mauris maximus imperdiet neque at interdum. Aenean vel urna et diam mattis varius. Suspendisse ultricies tempor nisi, ac posuere est feugiat sed. Pellentesque tempor ligula ac fermentum hendrerit. Nulla id leo non metus condimentum vulputate et eu lacus.',
+    link:'https://pinchofyum.com/'
+  },
+  {
+    id:'4.',
+    name:'Minimalist Baker',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit nibh ut vehicula vestibulum. Praesent ullamcorper augue in risus sagittis, vestibulum sagittis neque eleifend. Nunc congue tellus odio, non interdum enim commodo vitae. Nulla eu magna nisi.',
+    link:'https://minimalistbaker.com/'
+  }
+];

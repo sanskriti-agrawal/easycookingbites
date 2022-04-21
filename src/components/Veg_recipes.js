@@ -18,6 +18,12 @@ const Veg_recipes = () => {
                   <img className="image" src={e.img}></img>
                   <div className="name">{e.name}</div>
 
+                  <div className="serving">
+                    <img src={time}/><span>{e.time}</span>
+                    <img src={calories}/><span>{e.calories}</span>
+                    <img src={serve}/><span>{e.serve}</span>
+                  </div>
+
                   <div className="comb">
                     <div className="ingre">
                       <h2>
@@ -41,11 +47,11 @@ const Veg_recipes = () => {
                       <br />
                       <span>{e.make4}</span>
                     </div>
-                  </div>
+                  </div>  
                 </div>
               </>
             );
-          })}
+          })};
       </div>
     </>
   );

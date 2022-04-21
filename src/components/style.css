@@ -240,16 +240,18 @@
 
 .making {
   width: 510px;
-  line-height: 25px;
   position: relative;
   border-left: 1px solid grey;
   padding: 9px;
-  left: -20px;
+  left: -22px;
+  top: -33px;
 }
 
 .ingre {
   border-left: 1px solid grey;
   height: 60vh;
+  position: relative;
+  top: -30px;
 }
 
 .comb {
@@ -272,6 +274,45 @@
   padding: 10px;
   position: relative;
   top: -700px;
+}
+
+.serving{
+  width: 330px;
+  position: relative;
+  top: -60px;
+  margin-left: 10px;
+}
+
+.serving img{
+  width: 40px;
+  height: 40px;
+}
+
+.serving span{
+  padding: 10px;
+}
+
+/* snacks */
+
+.ingre2 h2, .making2 h2{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.ingre2{
+  border-left: 1px solid grey;
+  height: 50vh;
+  position: relative;
+  top: -20px;
+}
+
+.making2{
+  width: 500px;
+  position: relative;
+  border-left: 1px solid grey;
+  padding: 9px;
+  left: -30px;
+  top: -25px;
 }
 
 /* footer */
@@ -394,4 +435,136 @@
   font-size: 60px;
   position: relative;
   background-color: rgba(0, 0, 0, 0.368);
+}
+
+/* all-recipe */
+
+.first-image{
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+}
+.grid-image{
+  width: 150px;
+  height: 200px;
+  border-radius: 8px;
+  margin: 1%;
+}
+
+.grid-image:hover {
+  box-shadow: 0 0 3px 2px goldenrod
+}
+
+.second-image{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  position: relative;
+  top: -730px;
+  margin: 3%;
+}
+
+.grid2-image{
+  height: 300px;
+  width: 250px;
+  margin: 2%;
+  border-radius: 8px;
+}
+
+.grid2-image:hover {
+  box-shadow: 0 0 3px 2px goldenrod
+}
+
+.carousel2{
+  position: relative;
+  top: -1420px;
+}
+
+.c2-image{
+  width: 65%;
+  height: 600px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: 20%;
+}
+
+.carousel2-heading {
+  font-size: 60px;
+}
+
+.all-container h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  position: relative;
+  top: -1440px;
+  left: 250px;
+  font-size: 70px;
+}
+
+/* blog */
+
+.blog{
+  position: relative;
+  top: -50px;
+}
+.margin{
+  margin: 5% 0;
+}
+
+.parallax{
+  background-image: url("https://media.istockphoto.com/photos/table-top-view-of-spicy-food-picture-id1316145932?b=1&k=20&m=1316145932&s=170667a&w=0&h=feyrNSTglzksHoEDSsnrG47UoY_XX4PtayUPpSMunQI=");
+  height: 140vh;
+  width: 100%;
+  flex-direction: column;
+  background-size: cover;
+  background: no-repeat scroll center scroll;
+  background-attachment: fixed;  
+}
+
+.inner{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 80px;
+}
+
+.inner h1{
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.inner2{
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 3%;
+}
+
+.inner2 span, .inner2 h2{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 20px;
+}
+
+.inner2 span{
+  font-size: 26px;
+}
+
+.inner2 h2{
+  font-size: 40px;
+}
+
+.inner2 p{
+  padding-left: 20px;
+  font-size: 17px;
+  color: rgb(192, 192, 192);
+  line-height: 30px;
+}
+
+.inner2 h4{
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 20px;
+  font-size: 20px;
+  color: lightgoldenrodyellow;
 }
