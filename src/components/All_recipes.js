@@ -1,6 +1,10 @@
 import React from "react";
 import "./style.css";
 import Carousel from "react-bootstrap/Carousel";
+import Veg_recipes from './Veg_recipes';
+import NonVeg_recipes from './NonVeg_recipes';
+import Snacks_recipes from './Snacks_recipes';
+import Sweet_recipes from './Sweet_recipes';
 
 const All_recipes = () => {
   return (
@@ -69,7 +73,12 @@ const All_recipes = () => {
         </div>
         
         <h1>Enjoy Your Favourite Food!</h1>
-        
+        <div className="allrecipe-container">
+          <Veg_recipes/>
+          <NonVeg_recipes/>
+          <Snacks_recipes/>
+          <Sweet_recipes/>
+        </div>
       </div>
     </>
   );

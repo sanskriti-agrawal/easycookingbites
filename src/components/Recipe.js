@@ -7,7 +7,7 @@ const Recipe = () => {
       <h1 className="heading1">Our Top Recipes</h1>
 
       <Carousel fade>
-        <Carousel.Item interval={20}>
+        <Carousel.Item interval={50}>
           <img
             className="c-image"
             src="assets/dm.jpg"
@@ -19,7 +19,7 @@ const Recipe = () => {
           </Carousel.Caption>
         </Carousel.Item >
 
-        <Carousel.Item interval={20}>
+        <Carousel.Item interval={50}>
           <img
             className="c-image"
             src="assets/alook.jpg"
@@ -32,7 +32,7 @@ const Recipe = () => {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item interval={20}>
+        <Carousel.Item interval={50}>
           <img
             className="c-image"
             src="assets/kher.jpg"

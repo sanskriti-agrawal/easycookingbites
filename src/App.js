@@ -7,6 +7,7 @@ import Sweet_recipes from './components/Sweet_recipes';
 import Snacks_recipes from './components/Snacks_recipes';
 import All_recipes from './components/All_recipes';
 import Blog from './components/Blog';
+import Login from './components/Login';
 
 function App(){
   return(
@@ -16,7 +17,7 @@ function App(){
           <Route path='/' element={<Main_Page/>}/>
           <Route path='/all-recipe' element={<All_recipes/>}></Route>
           <Route path='/blog' element={<Blog/>}></Route>
-          {/* <Route path='/contact' element={<Contact/>}></Route> */}
+          <Route path='/signup' element={<Login/>}></Route>
           <Route path='/veg-recipes' element={<Veg_recipes/>}></Route>
           <Route path='/nonveg-recipes' element={<NonVeg_recipes/>}></Route>
           <Route path='/snacks-recipes' element={<Snacks_recipes/>}></Route>
