@@ -20,8 +20,9 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  margin-bottom: 8rem;
-  margin-right: 60rem;
+  position: relative;
+  top: -60px;
+  right: 340px;
 }
 
 .link2 {
@@ -29,8 +30,8 @@
   display: flex;
   flex-direction: row;
   position: relative;
-  left: 80rem;
-  top: -230px;
+  right: 100px;
+  top: -63px;
 }
 
 .link1 a , .link2 a{
@@ -106,8 +107,7 @@
 }
 
 .select-food{
-  margin-left: 26rem;
-  margin-bottom: 5rem;
+  margin-left: 25%;
 }
 
 .food-cat {
