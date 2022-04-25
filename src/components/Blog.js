@@ -1,12 +1,12 @@
 import React from "react";
 import { blog } from "./Api";
 import Footer from "./Footer";
-import Navbar from "./Navbar";
+import NavbarComp from "./NavbarComp";
 
 const Blog = () => {
   return (
     <>
-      <Navbar/>
+      <NavbarComp/>
       <div className="blog">
         <div className="margin"></div>
 

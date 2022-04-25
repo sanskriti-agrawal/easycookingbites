@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
 import image from '../components/images/image.jpg';
-import Navbar from "./Navbar";
 import veg from "../components/images/salad.png";
 import nonveg from "../components/images/chicken-leg.png";
 import snack from "../components/images/nachos.png";
@@ -11,6 +10,7 @@ import Spices from "./Spices";
 import Footer from "./Footer";
 import { FaSearch } from "react-icons/fa";
 import { all_recipes } from "./Api";
+import NavbarComp from "./NavbarComp";
 
 const Main_Page = () => {
   const [filteredData, setFilteredData] = useState([]);
@@ -30,12 +30,13 @@ const Main_Page = () => {
 
   return (
     <div className="app">
-      <Navbar />
+      <NavbarComp />
       <img
           src={image}
           style={{
-            width: "100%",
+            width:'100vw',
             height: "510px",
+            objectFit:'fill'
           }}
         />
       <div className="search">
@@ -89,7 +90,6 @@ const Main_Page = () => {
       </div>
 
       <Recipe />
-
       <Spices />
       <Footer />
     </div>

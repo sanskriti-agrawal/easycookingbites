@@ -5,7 +5,7 @@ const Spices = () => {
   return (
     <>
         <div className='main-spices'>
-            <span className='heading2'>Common Spices</span>
+            <div className='heading2'>Common Spices</div>
             <div className='box'>
                 {
                     spices.map((e)=>{

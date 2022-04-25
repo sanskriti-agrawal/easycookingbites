@@ -7,13 +7,12 @@
 .app {
   width: 100vw;
   height: 200vh;
-  display: block;
 }
 
 /* navbar */
 
 .navbar {
-  height: 100px;
+  height: 7rem;
   border-bottom: 2px solid black;
 }
 
@@ -21,9 +20,8 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  position: relative;
-  top: -58px;
-  left: -530px;
+  margin-bottom: 8rem;
+  margin-right: 60rem;
 }
 
 .link2 {
@@ -31,18 +29,17 @@
   display: flex;
   flex-direction: row;
   position: relative;
-  top: -58px;
+  left: 80rem;
+  top: -230px;
 }
 
-.link1 a {
+.link1 a , .link2 a{
   text-decoration: none;
   color: black;
   cursor: pointer;
   line-height: 50px;
   padding: 20px;
-  font-size: 20px;
-  position: relative;
-  left: 47%;
+  font-size: 1.4rem;
 }
 
 .link1 a:hover {
@@ -54,21 +51,10 @@
   transition: 3ms;
 }
 
-.link2 a {
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
-  line-height: 50px;
-  padding: 20px;
-  font-size: 20px;
-  position: relative;
-  right: 50%;
-}
-
 /* serach */
 
 .search {
-  width: 700px;
+  width: 50vw;
   height: 48px;
   padding: 10px;
   position: relative;
@@ -112,16 +98,16 @@
 }
 
 .serachIcon{
-  font-size: 26px;
+  font-size: 1.6rem;
   color: gray;
   position:relative;
   top:-200px;
-  left:850px;
+  left:1000px;
 }
 
 .select-food{
-  position: relative;
-  left: 300px;
+  margin-left: 26rem;
+  margin-bottom: 5rem;
 }
 
 .food-cat {
@@ -129,7 +115,7 @@
   height: 140px;
   border: 3px solid black;
   border-radius: 5px;
-  padding: 17px;
+  padding: 20px;
 }
 
 .button {
@@ -144,8 +130,7 @@
 }
 
 .logo {
-  width: 220px;
-  height: 220px;
+  width: 15rem;
   position: relative;
   top: -70px;
 }
@@ -154,22 +139,6 @@
   width: 70%;
   height: 50%;
   border: 3px solid black;
-}
-
-.heading1 {
-  position: relative;
-  left: 600px;
-  font-size: 50px;
-  font-weight: 600;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.heading2 {
-  font-size: 50px;
-  font-weight: 600;
-  font-family: "Times New Roman", Times, serif;
-  position: relative;
-  left: 600px;
 }
 
 /* spices */
@@ -183,6 +152,14 @@
   position: relative;
   left: 30px;
   margin-bottom: 50px;
+}
+
+.heading2 {
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 4rem;
 }
 
 .spice-img {
@@ -236,7 +213,7 @@
   opacity: 0.9;
 }
 .sub-recipes:hover{
-  box-shadow: 100px 100px 100px 120px #F7E9D7 inset;
+  box-shadow: 120px 120px 120px 120px #F7E9D7 inset;
 }
 .image:hover{
   box-shadow: 0px 0px 2px 6px gray;
@@ -458,7 +435,16 @@
 }
 
 .carousel {
-  margin: 2%;
+  width: 100vw;
+  margin-right: 4rem;
+  margin-top: 2rem;
+}
+
+.heading1 {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .carousel-heading {
@@ -768,5 +754,3 @@
   margin-top: 30px;
   text-align: center;
 }
-
-/* responsive */
