@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/easycookingbites/static/css/main.8aeb7129.css",
+    "main.js": "/easycookingbites/static/js/main.42d6ef32.js",
+    "static/media/image.jpg": "/easycookingbites/static/media/image.636d99f649926fc2ec0d.jpg",
+    "static/media/logo.png": "/easycookingbites/static/media/logo.3f3e2a3b18a9d4428c8f.png",
+    "static/media/salad.png": "/easycookingbites/static/media/salad.41d8c7504b51ac14239f.png",
+    "static/media/cupcake.png": "/easycookingbites/static/media/cupcake.706943fcfe2c62b1835c.png",
+    "static/media/chicken-leg.png": "/easycookingbites/static/media/chicken-leg.d0685b317adffb10026b.png",
+    "static/media/serving-dish.png": "/easycookingbites/static/media/serving-dish.6e8a5140c79f773507bc.png",
+    "static/media/nachos.png": "/easycookingbites/static/media/nachos.288f67b2606e4ff2671d.png",
+    "static/media/hourglass.png": "/easycookingbites/static/media/hourglass.8814ed259623a04e792b.png",
+    "static/media/flame.png": "/easycookingbites/static/media/flame.56be189bac2a1a70f4ee.png",
+    "index.html": "/easycookingbites/index.html",
+    "main.8aeb7129.css.map": "/easycookingbites/static/css/main.8aeb7129.css.map",
+    "main.42d6ef32.js.map": "/easycookingbites/static/js/main.42d6ef32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8aeb7129.css",
+    "static/js/main.42d6ef32.js"
+  ]
+}
