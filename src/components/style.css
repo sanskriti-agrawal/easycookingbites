@@ -22,7 +22,7 @@
   flex-direction: row;
   position: relative;
   top: -60px;
-  right: 340px;
+  right: 300px;
 }
 
 .link2 {
@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: row;
   position: relative;
-  right: 100px;
+  right: 170px;
   top: -63px;
 }
 
@@ -40,7 +40,7 @@
   cursor: pointer;
   line-height: 50px;
   padding: 20px;
-  font-size: 1.4rem;
+  font-size: 23px;
 }
 
 .link1 a:hover {
@@ -55,7 +55,7 @@
 /* serach */
 
 .search {
-  width: 50vw;
+  width: 70%;
   height: 48px;
   padding: 10px;
   position: relative;
@@ -103,7 +103,7 @@
   color: gray;
   position:relative;
   top:-200px;
-  left:1000px;
+  left:900px;
 }
 
 .select-food{

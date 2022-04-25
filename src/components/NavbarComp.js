@@ -35,7 +35,7 @@ const NavbarComp = () => {
               style={{
                 border: "1px solid black",
                 height: "45px",
-                width: "91px",
+                width: "100px",
                 paddingLeft: "9px",
               }}
             >
