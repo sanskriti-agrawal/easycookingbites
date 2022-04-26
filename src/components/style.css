@@ -497,12 +497,12 @@
 }
 
 .c2-image{
-  width: 65%;
+  width: 62%;
   height: 600px;
   object-fit: cover;
   display: block;
   margin-left: auto;
-  margin-right: 20%;
+  margin-right: 24%;
 }
 
 .carousel2-heading {
@@ -513,9 +513,10 @@
   font-family: 'Times New Roman', Times, serif;
   font-weight: 600;
   position: relative;
-  top: -1440px;
+  top: -1400px;
   left: 250px;
   font-size: 70px;
+  margin-bottom: 4%;
 }
 
 .allrecipe-container{
