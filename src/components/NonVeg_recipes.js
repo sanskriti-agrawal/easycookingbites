@@ -3,6 +3,7 @@ import { all_recipes } from "./Api";
 import time from "../components/images/hourglass.png";
 import calories from "../components/images/flame.png";
 import serve from "../components/images/serving-dish.png";
+import Feedback from "./Feedback";
 
 const NonVeg_recipes = () => {
   return (
@@ -50,6 +51,7 @@ const NonVeg_recipes = () => {
                     </div>
                   </div>
                 </div>
+                <Feedback/>
               </>
             );
           })}

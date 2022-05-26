@@ -4,6 +4,7 @@ import "./style.css";
 import time from "../components/images/hourglass.png";
 import calories from "../components/images/flame.png";
 import serve from "../components/images/serving-dish.png";
+import Feedback from "./Feedback";
 
 const Veg_recipes = () => {
   return (
@@ -49,6 +50,7 @@ const Veg_recipes = () => {
                     </div>
                   </div>  
                 </div>
+                <Feedback/>
               </>
             );
           })};
